@@ -5,7 +5,7 @@ ssh_authorized_keys:
 coreos:
   etcd:
     # generate a new token for each unique cluster from https://discovery.etcd.io/new
-    discovery: https://discovery.etcd.io/c8f400502b19f964e7c768e22e749e73
+    discovery: https://discovery.etcd.io/b03cb5a6ec0d1d654fee7f524efa2569
     # multi-region deployments, multi-cloud deployments, and droplets without
     # private networking need to use $public_ipv4
     addr: $private_ipv4:4001
